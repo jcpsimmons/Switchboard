@@ -4,6 +4,12 @@
 
 *Developed for [LivingSpaces.com](https://livingspaces.com) by [Josh C. Simmons](https://jcsdesign.me)*
 
+- [Getting Started]()
+-
+-
+-
+
+
 **Switchboard.js** is a tool for developers working on legacy webpages. We're all familiar with the "jQuery jumble" approach to coding that was common before frameworks such as React/Vue/Angular. Unfortunately a lot of these legacy pages still need updated and when they do, the risk of bugs due to timing are extremely high.
 
 Instead of railing against the jQuery mess paradigm, Switchboard.js embraces this approach by allowing devs to hook into various page updates as needed without having to refactor huge amounts of legacy code.

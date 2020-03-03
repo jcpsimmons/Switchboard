@@ -38,6 +38,10 @@ switchboard.monitorDomChange('#IDtoWatch')
 
 ## Methods
 
+### Constructor
+
+Can be invoked as such `Switchboard(true)` for verbose logging. Helpful for debugging.
+
 ### listenEvent
 
 ```javascript
@@ -66,4 +70,11 @@ Used to observe DOM mutation on an element. Defaults to observing `body` with `s
 
 ## Attributes
 
+### verbose (Boolean)
+
+Default `false`. Shows/hides console output from program. Make `false` for production.
+
+### documentEventList (Array) (work-in-progress)
+
+Running tab of all document-level event listeners. If running on a modern browser this will also include every existing event listener including the ones added by switchboard. Less-modern browsers will only contain Switchboard-added event listeners.
 

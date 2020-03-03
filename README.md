@@ -1,7 +1,5 @@
 # Switchboard.js
 
-![](https://img.shields.io/badge/Internet%20Explorer-^11-brightgreen)
-
 *A barebones JavaScript library for event timing and DOM observing.*
 
 *Developed for [LivingSpaces.com](https://livingspaces.com) by [Josh C. Simmons](https://jcsdesign.me)*

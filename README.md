@@ -22,10 +22,12 @@ Once imported - create switchboard instance
 let switchboard = new Switchboard()
 ```
  
-**Now let's tell Switchboard to wait for jQuery to load**
+**Now let's tell Switchboard to wait for jQuery to load, and listen for the update event**
 
 ```javascript
 switchboard.listenEvent('jquery', 'jQuery')
+
+document.addEventListener('jquery', ()=>{console.log('jQuery is available. Put your jQuery-dependant code in this callback.')})
 ```
 
 **Want to wait for a page element to update?**

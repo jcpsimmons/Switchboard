@@ -34,6 +34,8 @@ document.addEventListener('jquery', ()=>{console.log('jQuery is available. Put y
 
 ```javascript
 switchboard.monitorDomChange('#IDtoWatch')
+
+document.addEventListener('DOMMutation', ()=> alert('#IDtoWatch or a subcomponent changed.'))
 ```
 
 ---

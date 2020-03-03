@@ -4,7 +4,6 @@
 class Switchboard {
   constructor(verbose = false) {
     this.verbose = verbose;
-    this.userData = {};
 
     this.consoleLog = data => {
       if (verbose) {

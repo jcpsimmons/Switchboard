@@ -53,7 +53,7 @@ Can be invoked as such `Switchboard(true)` for verbose logging. Helpful for debu
 ### listenEvent
 
 ```javascript
-.listenEvent(string eventName, string variableName)
+.listenEvent(String eventName, String variableName)
 ```
 
 Waits for a variable to be present on the page. `variableName` should be input as the variable name after `window.` e.g. if you're waiting for `window.EventBus` you would send the variable name `EventBus`. `eventName` is the name of the document-level event that will be thrown ONCE when the variable becomes present on the page. 
@@ -69,7 +69,7 @@ document.addEventListener('eventbusload', ()=> alert('🎆 EventBus has loaded! 
 *Probably doesn't work on IE*
 
 ```javascript
-.monitorDomChange(optional string targetSelector, optional Boolean subtree)
+.monitorDomChange(optional String targetSelector, optional Boolean subtree)
 ```
 
 Used to observe DOM mutation on an element. Defaults to observing `body` with `subtree=true`. On DOM change throws an event named `DOMMutation`

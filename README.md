@@ -4,10 +4,10 @@
 
 *Developed for [LivingSpaces.com](https://livingspaces.com) by [Josh C. Simmons](https://jcsdesign.me)*
 
-- [Getting Started]()
--
--
--
+- [Getting Started](#getting-started)
+- [Methods](#Methods)
+- [Attributes](#Attributes)
+- [Work](#Work)
 
 
 **Switchboard.js** is a tool for developers working on legacy webpages. We're all familiar with the "jQuery jumble" approach to coding that was common before frameworks such as React/Vue/Angular. Unfortunately a lot of these legacy pages still need updated and when they do, the risk of bugs due to timing are extremely high.
@@ -85,4 +85,8 @@ Default `false`. Shows/hides console output from program. Make `false` for produ
 ### documentEventList (Array) (work-in-progress)
 
 Running tab of all document-level event listeners. If running on a modern browser this will also include every existing event listener including the ones added by switchboard. Less-modern browsers will only contain Switchboard-added event listeners.
+
+## Work
+
+Interested in working on the project? I'm looking for collaborators. Reach out at jcpsimmons `at` gmail `dot` com
 

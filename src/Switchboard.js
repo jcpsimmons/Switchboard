@@ -1,3 +1,6 @@
+// Switchboard.js by Josh Simmons
+// https://github.com/jcpsimmons/switchboard
+
 class Switchboard {
   constructor(verbose = false) {
     this.verbose = verbose;
